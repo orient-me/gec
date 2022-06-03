@@ -20,6 +20,8 @@ jobs:
         node: [14]
 
     steps:
+      - name: Cd into frontend
+        run: cd frontend
       - name: Checkout 🛎
         uses: actions/checkout@master
 
