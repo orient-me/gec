@@ -33,6 +33,7 @@
     "/public/build"
   ],
   "dependencies": {
+    "@chakra-ui/react": "^2.1.2",
     "@prisma/client": "^3.14.0",
     "@remix-run/express": "^1.5.1",
     "@remix-run/node": "^1.5.1",
