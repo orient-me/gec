@@ -20,8 +20,6 @@ jobs:
         node: [14]
 
     steps:
-      - name: Move to frontend
-        run: cd frontend
       - name: Checkout 🛎
         uses: actions/checkout@master
 
@@ -46,6 +44,9 @@ jobs:
 
       - name: Install dependencies 👨🏻‍💻
         run: yarn
+      - name: PWD
+        run: pwd
+        
 
       - name: Run linter 👀
         run: yarn lint
