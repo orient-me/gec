@@ -44,8 +44,8 @@ jobs:
 
       - name: Install dependencies 👨🏻‍💻
         run: yarn
-      - name: PWD
-        run: pwd
+      - name: LS
+        run: ls
         
 
       - name: Run linter 👀
